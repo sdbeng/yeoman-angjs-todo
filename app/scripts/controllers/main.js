@@ -15,4 +15,8 @@ angular.module('mytodoApp')
       'Fix bank accounts',
       'Pay rent'
     ];
+    $scope.addTodo = function() {
+    	$scope.todos.push($scope.todo);
+    	$scope.todo = '';
+    };
   });
