@@ -13,7 +13,8 @@ angular.module('mytodoApp')
       'Go to San Jose',
       'Buy a mbpro in San Francisco',
       'Fix bank accounts',
-      'Pay rent'
+      'Pay rent',
+      'Pick up children from school'
     ];
     $scope.addTodo = function() {
     	$scope.todos.push($scope.todo);

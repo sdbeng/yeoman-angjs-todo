@@ -4,6 +4,12 @@ body {
   padding-bottom: 20px;
 }
 
+/*show cursor to sort todo items in a list*/
+.showCursor p{
+  padding: 5px 10px;
+  cursor: move;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -77,3 +83,5 @@ body {
     border-bottom: 0;
   }
 }
+
+
