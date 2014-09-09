@@ -10,11 +10,7 @@
 angular.module('mytodoApp')
   .controller('MainCtrl', function ($scope) {
     $scope.todos = [
-      'Go to San Jose',
-      'Buy a mbpro in San Francisco',
-      'Fix bank accounts',
-      'Pay rent',
-      'Pick up children from school'
+      
     ];
     $scope.addTodo = function() {
     	$scope.todos.push($scope.todo);
